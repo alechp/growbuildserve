@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Grow Build Serve]]></title><description><![CDATA[Grow yourself. Build something. Serve others.]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 23 Apr 2019 23:10:58 GMT</lastBuildDate><item><title><![CDATA[Image download automation with Lingo & LAF]]></title><description><![CDATA[What’s the usual flow for getting graphics into an app folder? What are the potential shortcomings of that? What do I do differently? How…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//laf/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//laf/</guid><pubDate>Tue, 23 Apr 2019 18:41:26 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;What’s the usual flow for getting graphics into an app folder?&lt;/li&gt;
+&lt;li&gt;What are the potential shortcomings of that?&lt;/li&gt;
+&lt;li&gt;What do I do differently?&lt;/li&gt;
+&lt;li&gt;How could it be improved going forward?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Don’t care about thoughts/want the goods? Jump to &lt;a href=&quot;#References&quot;&gt;References&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;riding-the-squiggle&quot;&gt;&lt;a href=&quot;#riding-the-squiggle&quot; aria-label=&quot;riding the squiggle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Riding the Squiggle&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e07d816cfa6a9875403f959a1b18632b/2d017/point-a-to-point-b.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHdi64sAJ//xAAaEAACAgMAAAAAAAAAAAAAAAAAAQMQESEi/9oACAEBAAEFAnk3ci6P/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAIQIP/aAAgBAQAGPwKBX//EABkQAAMBAQEAAAAAAAAAAAAAAAABESExQf/aAAgBAQABPyFvB0LhFeGjWtkFiP/aAAwDAQACAAMAAAAQy8//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QFZn/xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8QWFz/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhUUGR/9oACAEBAAE/EANgo+sMm852JQoDW1Lkot9mcI3DLgAAoMCf/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;point a to point b&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e07d816cfa6a9875403f959a1b18632b/c739e/point-a-to-point-b.jpg&quot;
+        srcset=&quot;/static/e07d816cfa6a9875403f959a1b18632b/8ee9c/point-a-to-point-b.jpg 148w,
+/static/e07d816cfa6a9875403f959a1b18632b/ebbe7/point-a-to-point-b.jpg 295w,
+/static/e07d816cfa6a9875403f959a1b18632b/c739e/point-a-to-point-b.jpg 590w,
+/static/e07d816cfa6a9875403f959a1b18632b/5413e/point-a-to-point-b.jpg 885w,
+/static/e07d816cfa6a9875403f959a1b18632b/2d017/point-a-to-point-b.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+I was taught to “avoid automating what you don’t understand”. Here’s an ode to understanding the squiggle:&lt;/p&gt;
+&lt;h4 id=&quot;workflow&quot;&gt;&lt;a href=&quot;#workflow&quot; aria-label=&quot;workflow permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Workflow&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1. Export assets from sketch
+2. Update the existing assets directory within the app repository:
+   1. Overwrite the updated
+   2. Remove the outdated
+3. Update file names
+4. Git
+   1. Git status check
+   2. Confirm that no critical assets are being removed
+   3. Update repo&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;potential-problems&quot;&gt;&lt;a href=&quot;#potential-problems&quot; aria-label=&quot;potential problems permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Potential Problems&lt;/h4&gt;
+&lt;h6 id=&quot;exporting-manually-easy-at-first-cumbersome-over-time&quot;&gt;&lt;a href=&quot;#exporting-manually-easy-at-first-cumbersome-over-time&quot; aria-label=&quot;exporting manually easy at first cumbersome over time permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Exporting manually: easy at first, cumbersome over time&lt;/h6&gt;
+&lt;p&gt;Iterating on design constantly? I found that it was obnoxious to have to continually re-export for every little file change. Export. Download. Visually Diff. Add to correct folders. Re-run app. Confirm that image sources aren’t broken. Wait to do it again.&lt;/p&gt;
+&lt;h6 id=&quot;downloading-new-files&quot;&gt;&lt;a href=&quot;#downloading-new-files&quot; aria-label=&quot;downloading new files permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Downloading new files&lt;/h6&gt;
+&lt;p&gt;Overwrite a file name and lose an asset as a result&lt;/p&gt;
+&lt;h6 id=&quot;downloading-old-files-with-updated-names&quot;&gt;&lt;a href=&quot;#downloading-old-files-with-updated-names&quot; aria-label=&quot;downloading old files with updated names permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Downloading old files with updated names&lt;/h6&gt;
+&lt;p&gt;Forget to update an asset name in source and break an image&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;unwinding-the-squiggle&quot;&gt;&lt;a href=&quot;#unwinding-the-squiggle&quot; aria-label=&quot;unwinding the squiggle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Unwinding the Squiggle&lt;/h2&gt;
+&lt;h4 id=&quot;what-am-i-working-with-here&quot;&gt;&lt;a href=&quot;#what-am-i-working-with-here&quot; aria-label=&quot;what am i working with here permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What am I working with here?&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- Sketch
+- Invision &amp;amp; Craft
+- Abstract&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&quot;what-are-the-asset-management-options-i-explored&quot;&gt;&lt;a href=&quot;#what-are-the-asset-management-options-i-explored&quot; aria-label=&quot;what are the asset management options i explored permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;What are the asset management options I explored?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.sketch.com/&quot;&gt;Sketch&lt;/a&gt; with some plugins (eg. &lt;a href=&quot;https://github.com/bomberstudios/artboard-manager&quot;&gt;artboard-manager&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.invisionapp.com&quot;&gt;Invision&lt;/a&gt;: Love their product. I’m an Invision fanboy. Unfortunately, their DSM fell short.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zeplin.io&quot;&gt;Zeplin&lt;/a&gt;: Heard great things. Disappointed by experience. Felt like the “Inspect” feature of Invision wrapped in a native mac app.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.lingoapp.com/&quot;&gt;Lingo&lt;/a&gt;: Hmm… This looks interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&quot;the-good-of-lingo&quot;&gt;&lt;a href=&quot;#the-good-of-lingo&quot; aria-label=&quot;the good of lingo permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The good of Lingo&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sketch plugin makes it easy to fetch everything from my Sketch file into Lingo in one click&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Native desktop &amp;#x26; web apps&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Developed by TheNounProject (ie. have established track record in the design community)
+&lt;a href=&quot;https://thenounproject.com/&quot;&gt;https://thenounproject.com/&lt;/a&gt;
+&lt;a href=&quot;https://github.com/TheNounProject&quot;&gt;https://github.com/TheNounProject&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;API &amp;#x26; JS SDK&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&quot;the-bad-of-lingo-aka-the-new-squiggle&quot;&gt;&lt;a href=&quot;#the-bad-of-lingo-aka-the-new-squiggle&quot; aria-label=&quot;the bad of lingo aka the new squiggle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The bad of Lingo (aka. the new squiggle)&lt;/h6&gt;
+&lt;p&gt;Immediately after falling for Lingo, I discovered some emotional baggage: you cannot download all of the assets at once. At this point I was torn.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Invision had an almost non-existent API experience for their DSM. But they did allow you to batch download all of your assets in a zip file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lingo had a great UX and a workable API. But I have to manually download 200+ assets …? This would wipe out the time saved from the “pull all assets” feature their Sketch plugin offered.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;straightening-the-squiggle&quot;&gt;&lt;a href=&quot;#straightening-the-squiggle&quot; aria-label=&quot;straightening the squiggle permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Straightening the Squiggle&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Brainstorming&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here’s the (initial) desired workflow I want:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1. Fetch all new assets by pressing “pull assets” in Lingo (one button, no manual adding)
+2. Confirm the assets are still where they should be
+3. Download all files from lingo
+4. Sort them into proper sub-folders (~/MyRepo/assets/:lingo-section-name/:lingo-header-name)
+5. Archive the previous assets (ie. move them to a hidden directory be prepending a . )
+6. Print a log of all added and archived assets
+7. If the “—hard” flag was passed, automatically remove the archived directory
+8. If the “—soft” flag (or no flag) was passed, keep both the current and archived directory&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Fruits of the brainstorm&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’ve already implemented the first 3 steps &lt;a href=&quot;https://www.npmjs.com/package/laf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/79ca45a5c3356e4dae3f001a78165903/e11df/LAFF.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABWUlEQVQ4y+1TPUvDQBju7/IHCA4Odqjg5FJwc1VJXHVyicVJtEbECA6ipX5Vr4oR7dIKBU0WxVpzsZc01DRpernz0laJ2oIfa5/hXo73nvfreS9C/4FIn9wCIbTp/Y7sE2q7GBkV37GoYSKzWm94PyU3sV+1a8xSO0fsWw2WkWYSpLdrYehJZh6r7iCoOqVt7TxqyYOVm2mqFd27ouMF+THGjI8QghB+Jrei2k/aQ+HIzUfRxZB5PaKfDFArCc7kVCrFvKIoqqrK87OSJHUhU8Oi8FQShnfWZ3KHc6sLYzA/D0BWEBYVRYnFRhOJJY7jZVlu9xHumfjBtba1PMGNxwvc1O7epqcfl8qVtWSSJc9kMun0PgAAIaObVAQHZ/3yNTtJV+LPj1eK7n6U9S4iaYQkCOscvCKeTmoqPdiAL/a90Qwk9Duj/j7wHhuG/b9tGOmU0Db9L/kFb8jofQ4a/QbrAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;LAFF&quot;
+        title=&quot;&quot;
+        src=&quot;/static/79ca45a5c3356e4dae3f001a78165903/b9e4f/LAFF.png&quot;
+        srcset=&quot;/static/79ca45a5c3356e4dae3f001a78165903/cf440/LAFF.png 148w,
+/static/79ca45a5c3356e4dae3f001a78165903/d2d38/LAFF.png 295w,
+/static/79ca45a5c3356e4dae3f001a78165903/b9e4f/LAFF.png 590w,
+/static/79ca45a5c3356e4dae3f001a78165903/f9b6a/LAFF.png 885w,
+/static/79ca45a5c3356e4dae3f001a78165903/e11df/LAFF.png 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Apples, Oranges, Bananas&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s compare these three workflows:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- vanilla Sketch
+- Sketch with Lingo
+- Sketch with Lingo &amp;amp; LAF&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4fb2d8d5e2e0d82d63c8758b6739099a/5edb4/LAF_Workflow_Comparison.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 90.71428571428571%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAABibAAAYmwFJdYOUAAAC0klEQVQ4y11TS08TYRSdX2iMO0DAogJFKGING1ZuTEyIK6MxEkETXLhiARppAkQaKBZbsFpD6Wum82jn2Xl1Hp2Hp51KKDfp5PZ899xz7jd3iPB/+MPheZ6qqrqud7vdG0dXFOKK2el0nOEQ+2Hb9nXQMIygH0Nk13XD4YA4ZG+A18t65Ha73Ww2G42GIAjoDQSNFUVhWZamaZhHF4CmaaIMCM/zSFBD4CfLMv5wHIcnTEaaANl+oEukBsOggYwyjIOaHtmyLIhDAXUge/2ABfCBI4nMI0ElDKJFBBKYFgRYAhkJjqGGJ9QAQg1JREYS8REDcqQMG/CjaRogux/QJEmSoii8LXQBEwm8MAzTarVAHthGKWTBx9uKxsMBcpRKkoTTCIx8AYluYWDbcWxB4CmKhMvIIXYElbhElmWuzdxjKwouQkE+sN2xbFGSGbapaTrmGuyMZXFNGBQsy+72QcfBLVi6YWqaAQte1wXZcx3NMhVDE11b97ze6mBw01B0TVIVwXVMv4eFtqVbZrst86Yug4kdI3Rur5FJcLkV6mSZPHlKl/dQ17zYLKTixYPk2W7i4nDZVEqB71Qyz/7uPz77tvgrtVDNrnquQSjkVn3/Tj0du9wfrx2MCPlFkJXympgd0X/H1cKsfHrXqr7wvQ55PF85GK19nyTT98TsqCftEhq9zRyNtQsJr/okpJYCegUjS+V1Kj3G/ogzmRmnFA+51cDrUCdJ/vShmJ8Tco+k3JQr7BAG+4U9HpfOE245GdaX/DrIoVhaZ44mpLMFMT/vluYC+mXgd2rHyWJqop6eBshlYg7/ldAaW+XUrVZ2qlOc8UvTQS2J76JdeVfbu00eToq5+2HlQUA99z2z9TNhFGLmn2mzOOtfxgJ5m+iq52rltVrd0GvrHvch4D/3PlbtKGy9D4VPobAZNDd8cQfbyRY/kvlX9fwbuvDWbqwFxvk/xsTMLnWMJKIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;LAF Workflow Comparison&quot;
+        title=&quot;&quot;
+        src=&quot;/static/4fb2d8d5e2e0d82d63c8758b6739099a/b9e4f/LAF_Workflow_Comparison.png&quot;
+        srcset=&quot;/static/4fb2d8d5e2e0d82d63c8758b6739099a/cf440/LAF_Workflow_Comparison.png 148w,
+/static/4fb2d8d5e2e0d82d63c8758b6739099a/d2d38/LAF_Workflow_Comparison.png 295w,
+/static/4fb2d8d5e2e0d82d63c8758b6739099a/b9e4f/LAF_Workflow_Comparison.png 590w,
+/static/4fb2d8d5e2e0d82d63c8758b6739099a/f9b6a/LAF_Workflow_Comparison.png 885w,
+/static/4fb2d8d5e2e0d82d63c8758b6739099a/2d849/LAF_Workflow_Comparison.png 1180w,
+/static/4fb2d8d5e2e0d82d63c8758b6739099a/5edb4/LAF_Workflow_Comparison.png 1540w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Storm of the fruits&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Phases 4 - 8 are what I refer to as the “asset diffing” phase. I brainstormed some possible steps to implement that:
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0b81f4c254bde8a6690661a7e9e68f08/37b61/asset-diff-brainstorm.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 138.73517786561266%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAYAAABh2p9gAAAACXBIWXMAABYlAAAWJQFJUiTwAAACnUlEQVRIx5WV7VbyMBCEuQ4l/aAUWvpBUVTUI/zy/i9p3zzpGU9aQX1/jJvWMJmd3U0XaZrabldb7dE0O+va1h4eHuzx8dG6rrPEJZYkqUdyG2li8KQ+LnhoNpUddq31dWNd3dtQdTa0tbV9aVWdW+1RlJVlRWN5ubd83VhRVx5bW5c7S5MsEEO6YFFkW9uuOkvXlbmy8f/MzC2X5tzSb3IBzu9zLvXR/w/FXohLRvWjuhEL/iSJs3yVWbleW9c01rRNSHcYDiH2/T7E/b732FvrbenD897btbtGmFqWZVZVlb2/v9vLy4udTid7e3sL8fX1NUTh+PQU9nFIURQ2cox+LpQ7yPPcNpuNlWUZosBBWm+32xDXPhsRTRTqBRv4IeqoMPHJK2F9OBx82n0A62EYArFzLmR2JeVRLgrZjDekg5KlL84cEM0xIYxTXq1Wvk3qYDaxacYCUQiBg7RGNRGlEw+JKszHx4ddLhc7n88BPFMEvdPz5+dnsIYDxLGIjUU6BeEHgCorylvw/PwcrDkejyGS1aSxRSqTSRGglpQBFtAid3d3dn9/H7xUjCv9pRD/IFCz4gukrEWKp+zn0BhXq4xsFKjPiOo/bOCZ1pr33RwThSiQL0Qg31AqRT+RTtoGNZjP9SUyop6JcQF+VUjK8ciB+B1pa3Z/JSQVvCJdmpXiMGYUR+MHsCWejJuEnK4pUEFQPR+xPxdFhBolQFVFEuNHwnhKdOuIlBTpRSIWAPrxT1WOCyNAPo+6B/9ESEvgYXz3yQbU4etPBflGSKUhxU9Nh6ImRaP33wpRphaioVEI6bUL9tvlMPcQVfIsVhh/U/QOIOQmob58fN24C4nydPyk9l+eArLgUHk7mWWRxs2NylvfEaD7UL7+A4HIIq1u4SXvAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;asset diff brainstorm&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0b81f4c254bde8a6690661a7e9e68f08/b9e4f/asset-diff-brainstorm.png&quot;
+        srcset=&quot;/static/0b81f4c254bde8a6690661a7e9e68f08/cf440/asset-diff-brainstorm.png 148w,
+/static/0b81f4c254bde8a6690661a7e9e68f08/d2d38/asset-diff-brainstorm.png 295w,
+/static/0b81f4c254bde8a6690661a7e9e68f08/b9e4f/asset-diff-brainstorm.png 590w,
+/static/0b81f4c254bde8a6690661a7e9e68f08/f9b6a/asset-diff-brainstorm.png 885w,
+/static/0b81f4c254bde8a6690661a7e9e68f08/37b61/asset-diff-brainstorm.png 1012w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Benefits of this approach&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;devs can be sure they’re always using the latest version of assets without worry of over/under-fetching&lt;/li&gt;
+&lt;li&gt;lingo makes it easy to grab everything all at once (instead of needing to manually add)&lt;/li&gt;
+&lt;li&gt;assets will always be downloaded to their relevant directory (ie. don’t have to download to finder &amp;#x26; manually move files around)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Negatives of this approach&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Seems fairly straight forward. But then it occurred to me that there are (at least) two downfalls to this implementation plan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;designers can’t change the section/header names in Lingo willy-nilly.&lt;/li&gt;
+&lt;li&gt;designers also can’t change the lingo tag names or Sketch layer names (the latter being a massive blocker IMO). Why? If they do, those files will be changed for the developer as well. This means that Lingo “tags” and Sketch “layers” become &lt;em&gt;extremely touchy&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;renaming symbols requires manual renaming from dev (eg. you have “icon-arrow-left” and rename it to “icon-left-arrow” the dev will have to update on their end to match; will show in the file diff but doesn’t make the change for them)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both of these issues stem from the fact that there’s a hardcoded link between lingo asset structure and app file structure.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Making Babel out of Lingonade&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I realized that what I &lt;em&gt;really&lt;/em&gt; wanted was the ability to&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1. Design something in Sketch
+2. Store those assets in Lingo
+3. Fetch those assets from package.json as part of my build step
+4. Automatically update any symbolic references in my code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This &lt;em&gt;sounds&lt;/em&gt; nice but I realized that “asset diffing” was not enough. In order to unlock this final flow, I’m going to need to&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1. create a hash map of all assets’ names and their UUIDs
+2. store this locally in a keyval store like lowdb
+3. create a babel (or similar AST solution) plugin that will allow me to find/replace without accidentally wrecking code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you’re interested in contributing, would love the help!
+If you try out LAF in its current form, I would appreciate any feedback (GH issues work great)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;references&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CLI&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;@github&lt;/code&gt;: &lt;a href=&quot;https://github.com/servexyz/lingo-asset-fetcher-cli&quot;&gt;lingo-asset-fetcher-cli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;@npm&lt;/code&gt;: &lt;a href=&quot;https://www.npmjs.com/package/laf&quot;&gt;laf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Lib&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;@github&lt;/code&gt;: &lt;a href=&quot;https://github.com/servexyz/lingo-asset-fetcher-lib&quot;&gt;lingo-asset-fetcher-lib&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;@npm&lt;/code&gt;: &lt;a href=&quot;https://www.npmjs.com/package/laf-lib&quot;&gt;laf-lib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Video Tutorials&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1/2: &lt;a href=&quot;https://www.youtube.com/watch?v=J3UH4K_Nu0g&quot;&gt;laf gen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2/2: &lt;a href=&quot;https://www.youtube.com/watch?v=J3UH4K_Nu0g&quot;&gt;laf fetch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>

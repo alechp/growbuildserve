@@ -1,6 +1,7 @@
 ---
-title: Image download automation. Why? How?
+title: Image download automation with Lingo & LAF
 date: "2019-04-23T11:41:26"
+description: Let's explore the normal flow of importing assets into a directory. After, let's look at how this could be improved.
 ---
 
 - What's the usual flow for getting graphics into an app folder?
@@ -8,7 +9,7 @@ date: "2019-04-23T11:41:26"
 - What do I do differently?
 - How could it be improved going forward?
 
-Don't care about thoughts/want the goods? Jump to [References](#References)
+Don't care about thoughts/want the goods? Jump to [References](#references)
 
 ---
 
@@ -17,7 +18,7 @@ Don't care about thoughts/want the goods? Jump to [References](#References)
 ![](./images/point-a-to-point-b.jpg)
 I was taught to “avoid automating what you don’t understand”. Here’s an ode to understanding the squiggle:
 
-#### Workflow
+### Workflow
 
     1. Export assets from sketch
     2. Update the existing assets directory within the app repository:
@@ -31,15 +32,15 @@ I was taught to “avoid automating what you don’t understand”. Here’s an 
 
 #### Potential Problems
 
-###### Exporting manually: easy at first, cumbersome over time
+##### Exporting manually: easy at first, cumbersome over time
 
 Iterating on design constantly? I found that it was obnoxious to have to continually re-export for every little file change. Export. Download. Visually Diff. Add to correct folders. Re-run app. Confirm that image sources aren’t broken. Wait to do it again.
 
-###### Downloading new files
+##### Downloading new files
 
 Overwrite a file name and lose an asset as a result
 
-###### Downloading old files with updated names
+##### Downloading old files with updated names
 
 Forget to update an asset name in source and break an image
 
@@ -47,20 +48,20 @@ Forget to update an asset name in source and break an image
 
 ## Unwinding the Squiggle
 
-#### What am I working with here?
+### What am I working with here?
 
     - Sketch
     - Invision & Craft
     - Abstract
 
-#### What are the asset management options I explored?
+### What are the asset management options I explored?
 
 - [Sketch](https://www.sketch.com/) with some plugins (eg. [artboard-manager](https://github.com/bomberstudios/artboard-manager))
 - [Invision](https://www.invisionapp.com): Love their product. I'm an Invision fanboy. Unfortunately, their DSM fell short.
 - [Zeplin](https://zeplin.io): Heard great things. Disappointed by experience. Felt like the "Inspect" feature of Invision wrapped in a native mac app.
 - [Lingo](https://www.lingoapp.com/): Hmm… This looks interesting
 
-###### The good of Lingo
+#### The good of Lingo
 
 - Sketch plugin makes it easy to fetch everything from my Sketch file into Lingo in one click
 
@@ -72,7 +73,7 @@ Forget to update an asset name in source and break an image
 
 - API & JS SDK
 
-###### The bad of Lingo (aka. the new squiggle)
+#### The bad of Lingo (aka. the new squiggle)
 
 Immediately after falling for Lingo, I discovered some emotional baggage: you cannot download all of the assets at once. At this point I was torn.
 
@@ -84,7 +85,7 @@ Immediately after falling for Lingo, I discovered some emotional baggage: you ca
 
 ## Straightening the Squiggle
 
-**Brainstorming**
+### Brainstorming
 
 Here’s the (initial) desired workflow I want:
 
@@ -97,13 +98,13 @@ Here’s the (initial) desired workflow I want:
     7. If the “—hard” flag was passed, automatically remove the archived directory
     8. If the “—soft” flag (or no flag) was passed, keep both the current and archived directory
 
-**Fruits of the brainstorm**
+### Fruits of the brainstorm
 
 I’ve already implemented the first 3 steps [here](https://www.npmjs.com/package/laf)
 
 ![](./images/LAFF.png)
 
-**Apples, Oranges, Bananas**
+#### Apples, Oranges, Bananas
 
 Let's compare these three workflows:
 
@@ -113,18 +114,18 @@ Let's compare these three workflows:
 
 ![](./images/LAF_Workflow_Comparison.png)
 
-**Storm of the fruits**
+#### Storm of the fruits
 
 Phases 4 - 8 are what I refer to as the “asset diffing” phase. I brainstormed some possible steps to implement that:
 ![](./images/asset-diff-brainstorm.png)
 
-**Benefits of this approach**
+#### Benefits of this approach
 
 - devs can be sure they’re always using the latest version of assets without worry of over/under-fetching
 - lingo makes it easy to grab everything all at once (instead of needing to manually add)
 - assets will always be downloaded to their relevant directory (ie. don’t have to download to finder & manually move files around)
 
-**Negatives of this approach**
+#### Negatives of this approach
 
 Seems fairly straight forward. But then it occurred to me that there are (at least) two downfalls to this implementation plan:
 
@@ -134,7 +135,7 @@ Seems fairly straight forward. But then it occurred to me that there are (at lea
 
 Both of these issues stem from the fact that there’s a hardcoded link between lingo asset structure and app file structure.
 
-**Making Babel out of Lingonade**
+#### Making Babel out of Lingonade
 
 I realized that what I _really_ wanted was the ability to
 
