@@ -15,6 +15,34 @@
   - SECTION: **Principles**
   - SECTION: **Process**
 
+---
+
+---
+
+## Structure of Blog Posts
+
+- **Story**
+
+  > Examples of why I came to internalize this
+
+- **Application**
+
+  > How I applied this in my life
+
+- **Heuristics**
+
+  > How I can tell whether or not this principle is active in my life
+
+  `heuristic | hyo͞oˈristik |`
+
+  ```
+  “enabling a person to discover or learn something for themselves”
+  ```
+
+---
+
+---
+
 ## Glossary
 
 ### Sections
@@ -121,3 +149,11 @@ eg. Productivity Track -> Applying the general ideas in process to build a speci
 #### Tool
 
 > A helper tool which applies to a specific course or role (eg. [laf](https://npmjs.com/package/laf) would be appropriate for an "app building" course)
+
+---
+
+---
+
+## Related
+
+- [GATSBY.md](./docs/GATSBY.md)
