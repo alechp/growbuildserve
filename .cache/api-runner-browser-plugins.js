@@ -3,7 +3,7 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/alechp/Code/alechp/.repositories/growbuildserve/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"trackingId":"UA-139144152-1"},
     },{
       plugin: require('/Users/alechp/Code/alechp/.repositories/growbuildserve/node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},

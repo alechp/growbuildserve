@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/alechp/Code/alechp/.repositories/growbuildserve/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"trackingId":"UA-139144152-1"},
     },{
       plugin: require('/Users/alechp/Code/alechp/.repositories/growbuildserve/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},

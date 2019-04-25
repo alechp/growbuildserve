@@ -170,4 +170,4 @@ If you try out LAF in its current form, I would appreciate any feedback (GH issu
 
 [WCByrne](https://github.com/WCByrne) & [bjudson](https://github.com/bjudson) were extremely helpful. To demonstrate what I mean:
 
-Early on I ran into an API limitation (it was still in private beta so the SDK was pretty sparse). They implemented the feature request _within 4 hours_. Phenomenal response time. And they continued to be patient with me through my dumbest of questions. Nice breath of fresh air from a product team.
+Early on I ran into an API limitation (it was still in private beta so the SDK was pretty sparse). They implemented the feature request _within 4 hours_. Phenomenal response time. And they continued to be patient with me through my dumbest of questions. The experience was a nice breath of fresh air from a product team.
