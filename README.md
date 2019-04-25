@@ -63,7 +63,7 @@
 
 #### Principles
 
-_Principles_ are pre-decided beliefs which abstract the decision making process, thereby helping you prioritize more effectively.
+> _Principles_ are pre-decided beliefs which abstract the decision making process, thereby helping you prioritize more effectively.
 
 ##### Relevant Definitions
 
@@ -82,25 +82,19 @@ _Principles_ are pre-decided beliefs which abstract the decision making process,
 #### Process
 
 > _Process_ is the "how-to". It refers to both the noun of "having a process" and the verb of "processing".
->
-> This procedural "how-to" is the flashy, tactical part of productivity. It’s practical application. It's the quick fix. And it's often snake oil. That's not to say this process didn't work for some... The reason that these how-to's have such a narrow-demographic of application has to do with the motivation behind people becoming productive. There's too much emphasis on arriving or becoming.
->
-> As a result, there’s a disproportionate emphasis placed on this "how-to" step. People are often so eager to visit greener fields that they forget why their fields died in the first place. All the tools, tricks and tips in the world won’t help a gardener with a brown thumb. The intentional decision to cover principles in great detail is to avoid the temptation to figure out how to "better prioritize" without first understanding what "better" means in an individual's specific circumstance.
->
-> Whether the intention is to "be fruitful" or "get that bread" or "change the world", I would read this step in its proper order -- after Philosophy and Principles.
 
 ##### Relevant Definitions
-
-`Logos | ˈlōɡōs |`
-
-```
-“Logos is appeal to reason or logic. Logos uses facts and evidence to convince a reader or listener of the strength of your argument.”
-```
 
 `process | ˈpräˌses, ˈprōˌses |`
 
 ```
 “a series of actions or steps taken in order to achieve a particular end”
+```
+
+`Logos | ˈlōɡōs |`
+
+```
+“Logos is appeal to reason or logic. Logos uses facts and evidence to convince a reader or listener of the strength of your argument.”
 ```
 
 ---
@@ -132,19 +126,25 @@ eg.
 
 > A course which takes the foundation of a “track” and applies it to a specific goal.
 
-eg. Productivity Track -> Applying the general ideas in process to build a specific project management system in Todoist (or any project management tool with labels and filters)
+eg. From "Productivity" _Track_ to building a personalized project management system
 
 #### General Role
 
-> A person with an end goal in mind (eg. designer, developer, etc. wants to design an app).
+> A person with an end goal in mind
+
+eg. designer, developer, etc. wants to design an app
 
 #### Niche Role
 
-> A person with a domain-specific goal in mind (eg. I want to build a scalable event-driven architecture)
+> A person with a domain-specific goal in mind
+
+eg. I want to build a scalable event-driven architecture
 
 #### Tool
 
-> A helper tool which applies to a specific course or role (eg. [laf](https://npmjs.com/package/laf) would be appropriate for an "app building" course)
+> A helper tool which applies to a specific course or role
+
+eg. [laf](https://npmjs.com/package/laf) would be appropriate for an "app building" course
 
 ---
 
