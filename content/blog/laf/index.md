@@ -100,7 +100,7 @@ Here’s the (initial) desired workflow I want:
 
 ### Fruits of the brainstorm
 
-I’ve already implemented the first 3 steps [here](https://www.npmjs.com/package/laf)
+I’ve already implemented the first 3 steps via [LAF](https://www.npmjs.com/package/laf). LAF makes it easy to fetch assets from lingo via package.json or your terminal. The docs contain step-by-step instructions as well as video tutorials to get you started.
 
 ![](./images/LAFF.png)
 
@@ -171,3 +171,9 @@ If you try out LAF in its current form, I would appreciate any feedback (GH issu
 
 - 1/2: [laf gen](https://www.youtube.com/watch?v=J3UH4K_Nu0g)
 - 2/2: [laf fetch](https://www.youtube.com/watch?v=J3UH4K_Nu0g)
+
+## Shoutout
+
+[WCByrne](https://github.com/WCByrne) & [bjudson](https://github.com/bjudson) were extremely helpful. To demonstrate what I mean:
+
+Early on I ran into an API limitation (it was still in private beta so the SDK was pretty sparse). They implemented the feature request _within 4 hours_. Phenomenal response time. And they continued to be patient with me through my dumbest of questions. Nice breath of fresh air from a product team.
