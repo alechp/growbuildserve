@@ -91,7 +91,6 @@ export const pageQuery = graphql`
         description
       }
       fields {
-        slug
         readingTime {
           text
           words

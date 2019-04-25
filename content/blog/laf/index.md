@@ -48,15 +48,9 @@ Forget to update an asset name in source and break an image
 
 ## Unwinding the Squiggle
 
-### What am I working with here?
-
-    - Sketch
-    - Invision & Craft
-    - Abstract
-
 ### What are the asset management options I explored?
 
-- [Sketch](https://www.sketch.com/) with some plugins (eg. [artboard-manager](https://github.com/bomberstudios/artboard-manager))
+- [Sketch](https://www.sketch.com/) augmented with some plugins (eg. [artboard-manager](https://github.com/bomberstudios/artboard-manager))
 - [Invision](https://www.invisionapp.com): Love their product. I'm an Invision fanboy. Unfortunately, their DSM fell short.
 - [Zeplin](https://zeplin.io): Heard great things. Disappointed by experience. Felt like the "Inspect" feature of Invision wrapped in a native mac app.
 - [Lingo](https://www.lingoapp.com/): Hmm… This looks interesting
@@ -77,9 +71,9 @@ Forget to update an asset name in source and break an image
 
 Immediately after falling for Lingo, I discovered some emotional baggage: you cannot download all of the assets at once. At this point I was torn.
 
-- Invision had an almost non-existent API experience for their DSM. But they did allow you to batch download all of your assets in a zip file
+- `On one hand...` Invision had an almost non-existent API experience for their DSM. But they did allow you to batch download all of your assets in a zip file
 
-- Lingo had a great UX and a workable API. But I have to manually download 200+ assets ...? This would wipe out the time saved from the "pull all assets" feature their Sketch plugin offered.
+- `On the other hand...` Lingo had a great UX and a workable API. But I have to manually download 200+ assets ...? This would wipe out the time saved from the "pull all assets" feature their Sketch plugin offered.
 
 ---
 
