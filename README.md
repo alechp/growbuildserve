@@ -41,7 +41,54 @@
 
 ## Glossary
 
-### Sections
+> Blog Post -> Section -> Track -> Course
+
+#### A. Section
+
+> Compilation of blog posts
+> eg. “Philosophy”, “Principles”, “Process”
+
+#### B. Track
+
+> Compilation of sections with a defined INPUT and expected OUTPUT. A track has a name.
+
+eg.
+
+- _Name_: “Productivity”
+
+- _Input_: “Purpose”
+
+- _Sections_: “Philosophy, Principles and Process”
+
+- _Output_: “Priorities”
+
+#### C. Course
+
+> A course which takes the foundation of a “track” and applies it to a specific goal.
+
+eg. From "Productivity" _Track_ to building a personalized project management system
+
+#### D. General Role
+
+> A person with an end goal in mind
+
+eg. designer, developer, etc. wants to design an app
+
+#### E. Niche Role
+
+> A person with a domain-specific goal in mind
+
+eg. I want to build a scalable event-driven architecture
+
+#### F. Tool
+
+> A helper tool which applies to a specific course or role
+
+eg. [laf](https://npmjs.com/package/laf) would be appropriate for an "app building" course
+
+---
+
+### Productivity Track's Sections
 
 #### 1. Philosophy
 
@@ -96,55 +143,6 @@
 ```
 “Logos is appeal to reason or logic. Logos uses facts and evidence to convince a reader or listener of the strength of your argument.”
 ```
-
----
-
-### Blog Taxonomy
-
-> Blog Post -> Section -> Track -> Course
-
-#### A. Section
-
-> Compilation of blog posts
-> eg. “Philosophy”, “Principles”, “Process”
-
-#### B. Track
-
-> Compilation of sections with a defined INPUT and expected OUTPUT. A track has a name.
-
-eg.
-
-- _Name_: “Productivity”
-
-- _Input_: “Purpose”
-
-- _Sections_: “Philosophy, Principles and Process”
-
-- _Output_: “Priorities”
-
-#### C. Course
-
-> A course which takes the foundation of a “track” and applies it to a specific goal.
-
-eg. From "Productivity" _Track_ to building a personalized project management system
-
-#### D. General Role
-
-> A person with an end goal in mind
-
-eg. designer, developer, etc. wants to design an app
-
-#### E. Niche Role
-
-> A person with a domain-specific goal in mind
-
-eg. I want to build a scalable event-driven architecture
-
-#### F. Tool
-
-> A helper tool which applies to a specific course or role
-
-eg. [laf](https://npmjs.com/package/laf) would be appropriate for an "app building" course
 
 ---
 
