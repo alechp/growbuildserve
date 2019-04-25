@@ -43,7 +43,7 @@
 
 ### Sections
 
-#### Philosophy
+#### 1. Philosophy
 
 > “Philosophy” is a superset principle which informs all subsequent principles
 
@@ -61,7 +61,7 @@
 “Ethos is when an argument is constructed based on the ethics or credibility of the person making the argument.”
 ```
 
-#### Principles
+#### 2. Principles
 
 > _Principles_ are pre-decided beliefs which abstract the decision making process, thereby helping you prioritize more effectively.
 
@@ -79,7 +79,7 @@
 “is an argument that appeals to a reader’s emotions. Many speech writers use pathos rather than facts or logic to appeal to the emotions of an audience.”
 ```
 
-#### Process
+#### 3. Process
 
 > _Process_ is the "how-to". It refers to both the noun of "having a process" and the verb of "processing".
 
@@ -103,12 +103,12 @@
 
 > Blog Post -> Section -> Track -> Course
 
-#### Section
+#### A. Section
 
 > Compilation of blog posts
 > eg. “Philosophy”, “Principles”, “Process”
 
-#### Track
+#### B. Track
 
 > Compilation of sections with a defined INPUT and expected OUTPUT. A track has a name.
 
@@ -122,25 +122,25 @@ eg.
 
 - _Output_: “Priorities”
 
-#### Course
+#### C. Course
 
 > A course which takes the foundation of a “track” and applies it to a specific goal.
 
 eg. From "Productivity" _Track_ to building a personalized project management system
 
-#### General Role
+#### D. General Role
 
 > A person with an end goal in mind
 
 eg. designer, developer, etc. wants to design an app
 
-#### Niche Role
+#### E. Niche Role
 
 > A person with a domain-specific goal in mind
 
 eg. I want to build a scalable event-driven architecture
 
-#### Tool
+#### F. Tool
 
 > A helper tool which applies to a specific course or role
 
