@@ -17,8 +17,6 @@
 
 ---
 
----
-
 ## Structure of Blog Posts
 
 - **Story**
@@ -38,8 +36,6 @@
   ```
   “enabling a person to discover or learn something for themselves”
   ```
-
----
 
 ---
 
