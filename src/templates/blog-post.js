@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import { FaRegClock, FaRegFileWord, FaRegCalendarAlt } from "react-icons/fa"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <h1>{post.frontmatter.title}</h1>
-        <p
+        <span
           style={{
             ...scale(-1 / 5),
             display: `block`,
@@ -27,8 +28,12 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
-        </p>
+          <FaRegClock /> {post.frontmatter.date}
+          <br />
+          <FaRegFileWord /> {post.fields.readingTime.words} words
+          <br />
+          <FaRegCalendarAlt /> {post.fields.readingTime.text}
+        </span>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
@@ -84,6 +89,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+      }
+      fields {
+        slug
+        readingTime {
+          text
+          words
+        }
       }
     }
   }
