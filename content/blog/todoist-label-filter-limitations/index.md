@@ -4,8 +4,6 @@ date: "2019-05-15T05:02:00"
 description: Let's explore the normal flow of importing assets into a directory. After, let's look at how this could be improved.
 ---
 
-# Two Biggest Limitations of Labels & Filters in Todoist
-
 ## Pain Point
 
 Sometimes I need to refer to a series of related labels in a filter. Let’s imagine that certain tasks you do have to be done in a certain location.
@@ -28,7 +26,7 @@ Let’s imagine you want to see any tasks which do _not_ have a location label s
 
 ### New Filter: `No Location Specified`
 
-> Check for tasks without location specified
+Check for tasks without location specified
 
 ```
 !(@house | @office | @store)
