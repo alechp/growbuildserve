@@ -23,5 +23,10 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "laf-6a0",
         "path": "/laf/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "todoist-label-filter-limitations-03b",
+        "path": "/todoist-label-filter-limitations/"
     }
 ]

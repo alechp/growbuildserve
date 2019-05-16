@@ -1,4 +1,10 @@
-# 2 Biggest Limitations of Labels & Filters in Todoist
+---
+title: Two Biggest Limitation of Labels & Filters in Todoist
+date: "2019-05-15T05:02:00"
+description: Let's explore the normal flow of importing assets into a directory. After, let's look at how this could be improved.
+---
+
+# Two Biggest Limitations of Labels & Filters in Todoist
 
 ## Pain Point
 
